@@ -1,0 +1,15 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='320' viewBox='0 0 1200 320' role='img' aria-label='SplitEasy banner'>
+  <defs>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#10161f'/><stop offset='1' stop-color='#1a2b3d'/></linearGradient>
+    <linearGradient id='ac' x1='0' y1='0' x2='1' y2='0'><stop offset='0' stop-color='#ff6b6b'/><stop offset='1' stop-color='#4ecdc4'/></linearGradient>
+  </defs>
+  <style>@media (prefers-reduced-motion: reduce) { * { animation: none; } }</style>
+  <rect width='1200' height='320' rx='24' fill='url(#bg)'/>
+  <rect x='90' y='40' width='240' height='240' rx='22' fill='#171f2b' stroke='#4ecdc4' stroke-opacity='.45' stroke-width='2'/>
+  <path d='M210 160L210 70A90 90 0 0 1 288 205Z' fill='#ff6b6b'><animateTransform attributeName='transform' type='translate' values='0 0;9 -5;0 0' dur='3s' repeatCount='indefinite'/></path>
+  <path d='M210 160L288 205A90 90 0 0 1 132 205Z' fill='#4ecdc4'><animateTransform attributeName='transform' type='translate' values='0 0;0 10;0 0' dur='3s' begin='1s' repeatCount='indefinite'/></path>
+  <path d='M210 160L132 205A90 90 0 0 1 210 70Z' fill='#ffd166'><animateTransform attributeName='transform' type='translate' values='0 0;-9 -5;0 0' dur='3s' begin='2s' repeatCount='indefinite'/></path>
+  <text x='390' y='150' font-size='76' font-weight='700' fill='url(#ac)' font-family='Segoe UI, Roboto, Helvetica, Arial, sans-serif'>SplitEasy</text>
+  <text x='392' y='200' font-size='28' fill='#dbe5f1' font-family='Segoe UI, Roboto, Helvetica, Arial, sans-serif'>Split the bill. Keep the friendship.</text>
+  <text x='392' y='245' font-size='20' fill='#7388a2' font-family='Consolas, Courier New, monospace'>Equal  •  By items  •  Tax and tip  •  Exact cents</text>
+</svg>

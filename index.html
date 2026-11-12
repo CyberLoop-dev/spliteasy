@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>SplitEasy</title>
+<meta name='description' content='Split a bill equally or by items, with tax and tip. The cents always add up.'>
+<link rel='icon' href='assets/logo.svg' type='image/svg+xml'>
+<link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+<main>
+  <header><img src='assets/logo.svg' alt='' width='34' height='34'><h1>SplitEasy</h1></header>
+  <section class='card'>
+    <div class='seg' id='mode'><button type='button' data-m='equal' aria-pressed='true'>Split equally</button><button type='button' data-m='items' aria-pressed='false'>By items</button></div>
+    <label><span id='sl'>Bill total (before tax and tip)</span><input id='shared' inputmode='decimal' autocomplete='off' value='120.00'></label>
+    <div id='people'></div>
+    <button id='add' type='button'>Add person</button>
+    <div class='two'><label>Tax %<input id='tax' inputmode='decimal' autocomplete='off' value='8'></label><label>Tip % (on the pre-tax amount)<input id='tip' inputmode='decimal' autocomplete='off' value='15'></label></div>
+  </section>
+  <section class='card'>
+    <p id='err' role='alert'></p>
+    <div id='out'></div>
+    <button id='copy' type='button' class='primary'>Copy summary</button>
+  </section>
+</main>
+<script src='split.js'></script>
+<script src='app.js'></script>
+</body>
+</html>
